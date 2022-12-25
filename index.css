@@ -17,7 +17,7 @@ body {
 }
 .color-scheme-container {
   width: 100%;
-  height: 80vh;
+  height: 75vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -62,4 +62,11 @@ label:after {
 .color-column {
   height: 100%;
   color: #fff;
+}
+.hex-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.75em;
+  font-weight: 500;
 }
