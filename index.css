@@ -33,7 +33,7 @@ body {
 .scheme-color {
   border: none;
   background: #e5e5e5;
-  min-width: 3.75em;
+  min-width: 2em;
   height: 100%;
 }
 .mode {
