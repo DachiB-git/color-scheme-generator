@@ -64,9 +64,17 @@ label:after {
   color: #fff;
 }
 .hex-value {
+  font-size: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 0.75em;
+  padding-top: 1.5em;
   font-weight: 500;
+}
+
+@media (min-width: 468px) {
+  .hex-value {
+    font-size: 1rem;
+    padding-top: 0.75em;
+  }
 }
